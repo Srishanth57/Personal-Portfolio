@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b006a4b840.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <i class="fa-solid fa-user logo" style="color: #e6ccbe;"></i>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class=" fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Srishanth S</span><br>From Kerala</h1>
+        </div>
+    </div>
+
+  </div> 
+
+  <!-- ---------------About---------------- -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/Photo.jpg">
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am C++ Web Developer and Web Designer.<br>I'm passionate about coding and crafting beautiful web experiences. Based in Kerala (India), I thrive on learning new things and pushing the boundaries of web development. My ambition is to create innovative, user-friendly websites that blend aesthetics with functionality.<br>When I'm not coding, I'm exploring the latest tech trends and tackling exciting side projects. Let's connect and collaborate! Reach me at <b><a>srishanth471011@gmail.com</a></b> or find me on <a href="https://www.linkedin.com/in/srishanth-s/">Linkedin</a>.
+                    
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web developer</span><br>Developing website interfaces</li>
+                        <li><span>UI/UX Designer</span><br>Designing website interfaces</li>
+                        <li><span>Programmer</span><br>C++|HTML|CSS|Javascript|Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- ----------------------Services-------------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code fa-beat-fade"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempora hic vitae, maiores est similique minima pariatur ullam, dolorum excepturi aut! Praesentium veniam debitis molestias! Doloremque, tenetur? Recusandae, placeat maiores!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop fa-beat-fade"></i>
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempora hic vitae, maiores est similique minima pariatur ullam, dolorum excepturi aut! Praesentium veniam debitis molestias! Doloremque, tenetur? Recusandae, placeat maiores!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop fa-beat-fade"></i>
+                <h2>Programming</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempora hic vitae, maiores est similique minima pariatur ullam, dolorum excepturi aut! Praesentium veniam debitis molestias! Doloremque, tenetur? Recusandae, placeat maiores!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- -------------------portfolio---------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work-1.png">
+                <div class="layer">
+                    <h3>To Do list</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsa provident dolor laudantium veritatis aliquam ullam eum quidem, voluptas perferendis quis, sequi sit? Earum similique iste accusantium dolor cum vel?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-2.png">
+                <div class="layer">
+                    <h3>Amazon Website Clone</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsa provident dolor laudantium veritatis aliquam ullam eum quidem, voluptas perferendis quis, sequi sit? Earum similique iste accusantium dolor cum vel?</p>
+                    <a href="https://srishanth57.github.io/AMAZON-CLONE-PROJECT/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png">
+                <div class="layer">
+                    <h3>Front end Website</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsa provident dolor laudantium veritatis aliquam ullam eum quidem, voluptas perferendis quis, sequi sit? Earum similique iste accusantium dolor cum vel?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+            <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+  <!-- -------------------------contact----------------------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> srishanth471011@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7306526745</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/srishanth.s.9"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/alpha_spec._/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Srishanth_S_"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/srishanth-s/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Srishanth57"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required> 
+                    <input type="email" name="Email" placeholder="Your email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  <i class="fa-regular fa-copyright"style="color:#ffffff" ></i>  Made with passion <i class="fa-solid fa-heart"></i> </p>
+    </div>
+  </div>
+
+  
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+    </script>
+  
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNhGtROZOc6MTIG9Dji7AsDFhUOQHVa6fqH8wLVTSg8kFU8QrJEWMszRgSr_H5ielQsQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
